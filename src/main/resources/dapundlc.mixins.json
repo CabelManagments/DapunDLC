@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.dapun.dlc.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinGameRenderer",
+    "MixinClientPlayerInteractionManager",
+    "MixinLivingEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
